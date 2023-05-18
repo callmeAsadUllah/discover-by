@@ -8,9 +8,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-LOGIN_REDIRECT_URL = 'dashboard'
-LOGIN_URL = 'login'
-LOGOUT_URL = 'logout'
+LOGIN_REDIRECT_URL = 'account:dashboard'
+LOGIN_URL = 'account:login'
+LOGOUT_URL = 'account:logout'
 # LOGOUT_REDIRECT_URL = 'logout'
 
 INSTALLED_APPS = [
@@ -67,8 +67,12 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
 AUTHENTICATION_BACKENDS = [
-    'django.contrib.auth.backends.ModelBackend'
+    #
+    'django.contrib.auth.backends.ModelBackend',
+    #
+    'account.backends.EmailAuthBackend',
 ]
 
 AUTH_PASSWORD_VALIDATORS = [
