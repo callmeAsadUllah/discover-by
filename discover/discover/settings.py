@@ -8,9 +8,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-# LOGIN_URL = 'login'
-# LOGOUT_URL = 'logout'
 LOGIN_REDIRECT_URL = 'dashboard'
+LOGIN_URL = 'login'
+LOGOUT_URL = 'logout'
 # LOGOUT_REDIRECT_URL = 'logout'
 
 INSTALLED_APPS = [

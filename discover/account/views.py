@@ -10,11 +10,9 @@ from django.contrib.auth.decorators import login_required
 @login_required
 def dashboard(request):
     title = 'discover'
-    anon = 'Anonymous User'
     
     context = {
-        'title': title,
-        'anon': anon
+        'title': title
     }
     
     return render(
