@@ -3,14 +3,14 @@ from django.urls import (
     include
 )
 from django.contrib.auth import views as auth_views
-from account.views import (
+from accounts_app.views import (
     dashboard,
     register,
     edit
 )
 
 
-app_name = 'account'
+app_name = 'accounts_app'
 
 
 urlpatterns = [

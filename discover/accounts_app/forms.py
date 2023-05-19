@@ -9,7 +9,7 @@ from django.contrib.auth.models import User
 
 # from crispy_forms.helper import FormHelper
 # from crispy_forms.layout import Submit
-from account.models import (
+from accounts_app.models import (
     Profile
 )
 

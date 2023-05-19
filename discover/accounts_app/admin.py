@@ -1,13 +1,14 @@
 from django.contrib import admin
+from django.contrib.admin import ModelAdmin
 
 
-from account.models import (
+from accounts_app.models import (
     Profile
 )
 
 
 @admin.register(Profile)
-class ProfileAdmin(admin.ModelAdmin):
+class ProfileAdmin(ModelAdmin):
     list_display = [
         'user',
         'date_of_birth',

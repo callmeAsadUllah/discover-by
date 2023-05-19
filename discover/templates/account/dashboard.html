@@ -3,7 +3,7 @@
 {% block content %}
  <h1>Dashboard | {{ request.user.username }}</h1>
  <p>Welcome to your dashboard.
-    You can <a href="{% url 'account:edit' %}">edit your
-profile</a> or <a href="{% url 'account:password_change' %}">change your password</a>.
+    You can <a href="{% url 'accounts_app:edit' %}">edit your
+profile</a> or <a href="{% url 'accounts_app:password_change' %}">change your password</a>.
  </p>
 {% endblock %}

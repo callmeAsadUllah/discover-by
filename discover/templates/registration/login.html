@@ -1,5 +1,8 @@
 {% extends "base.html" %}
 
+{% load account %}
+{% load socialaccount %}
+
 {% block title %}Log-in{% endblock %}
 {% block content %}
  <h1>Log-in</h1>
@@ -10,13 +13,22 @@
  </p>
  {% else %}
  <p>Please, use the following form to log-in:
-  If you don't have an account <a href="{% url 'account:register' %}">register here</a>.
+  If you don't have an account <a href="{% url 'accounts_app:register' %}">register here</a>.
  </p>
  {% endif %}
- <form action="{% url 'account:login' %}" method="POST">
+ <form action="{% url 'accounts_app:login' %}" method="POST">
    {% csrf_token %}
    {{ form.as_p }}
  <input type="hidden" name="next" value="{{ next }}" />
  <p><input type="submit" value="Log-in"></p>
  </form>
+<h1>My Google Login Project</h1>
+    {% if user.is_authenticated %}
+    <p>Welcome, {{ user.username }} !</p>
+
+    {% else %}
+    <h1>My Google Login Project</h1>
+    <a href="{% provider_login_url 'google' %}">Login with Google</a>
+    {% endif %}
+
 {% endblock %}

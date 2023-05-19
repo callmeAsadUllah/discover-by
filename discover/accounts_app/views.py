@@ -8,10 +8,10 @@ from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 
 
-from account.models import (
+from accounts_app.models import (
     Profile
 )
-from account.forms import (
+from accounts_app.forms import (
     LoginForm,
     UserRegistrationForm,
     UserEditForm,

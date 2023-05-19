@@ -7,12 +7,15 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 
-from account import urls
+from accounts_app import urls
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('account/', include('account.urls', namespace='account'))
+    #
+    path('accounts/', include('allauth.urls')),
+    #
+    path('accounts_app/', include('accounts_app.urls', namespace='accounts_app'))
 ]
 if settings.DEBUG:
     urlpatterns += static(

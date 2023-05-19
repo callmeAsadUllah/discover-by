@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="26c65989-67d1-45cb-886c-8d5fe7c53cd9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/discover/account/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover/account/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover/account/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover/account/backends.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover/account/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover/account/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover/account/migrations/0002_alter_profile_photo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover/account/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover/account/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover/account/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover/account/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover/account/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/discover/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover/discover/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/discover/discover/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover/discover/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/discover/discover/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover/media/users/2023/05/18/done.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover/media/users/2023/05/18/world.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover/templates/account/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/discover/templates/account/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover/templates/account/register_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/discover/templates/account/register_done.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/discover/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover/templates/registration/logged_out.html" beforeDir="false" afterPath="$PROJECT_DIR$/discover/templates/registration/logged_out.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/discover/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2PydUph0G8YSu0xVYnkTPLUX00G" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26c65989-67d1-45cb-886c-8d5fe7c53cd9" name="Changes" comment="" />
+      <created>1684433286433</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684433286433</updated>
+      <workItem from="1684433288869" duration="18000" />
+    </task>
+    <servers />
+  </component>
+</project>
